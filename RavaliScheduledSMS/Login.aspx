@@ -1,12 +1,15 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login .aspx.cs" Inherits="RavaliScheduledSMS.Login" %>
-
-
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="RavaliScheduledSMS.Login"%>
 <!DOCTYPE html>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link href="css/jgrowl.css" rel="stylesheet" />
-
+    <link href="css/Login.css" rel="stylesheet" />
 <html xmlns="http://www.w3.org/1999/xhtml">
+    
 <head runat="server">
+    
+    <script src="js/jquery.cookie.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript"  src="js/Login.js"></script>
     <title></title>
 </head>
 <body>
@@ -27,7 +30,7 @@
                             </div>
                             <div class="form-group">
                                 <span>
-                                    <input id="remember-me" name="remember-me" type="checkbox"></span><label for="remember-me" class="text-info"><span>Remember me</span></label><br>
+                                    <input id="remember-me" name="remember-me" type="checkbox" checked="checked"></span><label for="remember-me" class="text-info"><span>Remember me</span></label><br>
                                 <input type="submit" name="submit" class="btn btn-info float-left" value="Login" id="submit">
                                 <input type="submit" name="submit" class="btn btn-info float-right" value="SignUp" id="register">
                             </div>
@@ -37,9 +40,6 @@
             </div>
         </div>
     </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="js/Login.js"></script>
-    <link href="css/Login.css" rel="stylesheet" />
     <script src="js/jgrowl.js"></script>
 </body>
 </html>

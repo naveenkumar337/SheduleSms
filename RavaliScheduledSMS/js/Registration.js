@@ -48,7 +48,7 @@
                     sessionStorage.setItem("username", obj.objresponse.UserName);
                     debugger;
                     $.jGrowl("User Registration Completed Successfully")
-                    location.href = "Login%20.aspx";
+                    location.href = "Login.aspx";
                     return false;   
                 }
             });
