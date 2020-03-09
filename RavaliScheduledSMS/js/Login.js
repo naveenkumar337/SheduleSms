@@ -1,16 +1,12 @@
 ﻿$(document).ready(function () {
-    debugger;
+
     $('#submit').click(function () {
+        debugger;
         var obj = {
             username: $('#txtname').val(),
             password: $('#pswd').val()
         };
-        $('.input').keypress(function (e) {
-            if (e.which == 13) {
-                $('form#submit').submit();
-                return false;
-            }
-        });
+
         var request = $.ajax({
             url: 'http://localhost:58919/api/Registraion/Login_ADD',
             method: 'POST',
@@ -26,19 +22,15 @@
         })
     })
     $('#register').click(function () {
-        
+
         window.location = "Registration.aspx";
         return false;
     });
+    $('.input').keypress(function (e) {
+        if (e.which == 13) {
+            //$('form#submit').submit();
+            return false;
+        }
+    });
 })
 
-
-//$(document).ready(function () {
-//    debugger;
-//    $('#submit').click(function () {
-//        var obj = {
-//            username: $('#txtname').val(),
-//            password: $('#pswd').val()
-//        };
-//    })
-//})

@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="sideMainUserControl.ascx.cs" Inherits="RavaliScheduledSMS.userControls.WebUserControl1" %>
+<asp:Literal ID="liCntMainMenu" runat="server"></asp:Literal>
