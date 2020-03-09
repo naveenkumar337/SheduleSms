@@ -105,6 +105,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="js\Login.js" />
+    <Content Include="ListContacts.aspx" />
     <Content Include="Login.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
@@ -137,7 +138,6 @@
     <Compile Include="AddContacts.aspx.designer.cs">
       <DependentUpon>AddContacts.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\SweetController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -147,6 +147,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListContacts.aspx.cs">
+      <DependentUpon>ListContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListContacts.aspx.designer.cs">
+      <DependentUpon>ListContacts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login .aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -180,6 +187,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <PropertyGroup>
