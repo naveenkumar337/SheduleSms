@@ -94,6 +94,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="css\Home.css" />
     <Content Include="css\jgrowl.css" />
     <Content Include="css\Login.css" />
     <Content Include="css\Registration.css" />
@@ -111,6 +112,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="js\Login.js" />
+    <Content Include="ListContacts.aspx" />
     <Content Include="js\SmsPages.js" />
     <Content Include="Login.aspx" />
     <Content Include="NormalSms.aspx" />
@@ -132,6 +134,7 @@
     <Content Include="AddContacts.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Home.aspx" />
+    <Content Include="userControls\sideMainUserControl.ascx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -153,6 +156,13 @@
     </Compile>
     <Compile Include="Home.aspx.designer.cs">
       <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ListContacts.aspx.cs">
+      <DependentUpon>ListContacts.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ListContacts.aspx.designer.cs">
+      <DependentUpon>ListContacts.aspx</DependentUpon>
     </Compile>
     <Compile Include="Login .aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
@@ -182,6 +192,13 @@
     </Compile>
     <Compile Include="SiteMainMenu.Master.designer.cs">
       <DependentUpon>SiteMainMenu.Master</DependentUpon>
+    </Compile>
+    <Compile Include="userControls\sideMainUserControl.ascx.cs">
+      <DependentUpon>sideMainUserControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="userControls\sideMainUserControl.ascx.designer.cs">
+      <DependentUpon>sideMainUserControl.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

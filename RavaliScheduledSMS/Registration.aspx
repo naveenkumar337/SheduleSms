@@ -1,16 +1,14 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="RavaliScheduledSMS.Registration" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Registration.aspx.cs" Inherits="RavaliScheduledSMS.Registration" MasterPageFile="~/SiteMainMenu.Master"%>
+
+<%@ Register Src="~/userControls/sideMainUserControl.ascx" TagPrefix="uc1" TagName="sideMainUserControl" %>
+
+<%--<uc1:sideMainUserControl runat="server" ID="sideMainUserControl" />--%>
 
 
-<!DOCTYPE html>
 
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<link href="css/Registration.css" rel="stylesheet" />
-<link href="css/jgrowl.css" rel="stylesheet" />
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-</head>
-<body>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+
     <div id="Register">
         <div class="container">
             <div id="login-row" class="row justify-content-center align-items-center">
@@ -52,5 +50,5 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/Registration.js"></script>
     <script src="js/jgrowl.js"></script>
-</body>
-</html>
+</asp:Content>
+<%--</html>--%>

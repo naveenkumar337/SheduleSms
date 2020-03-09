@@ -1,29 +1,68 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMainMenu.master.cs" Inherits="RavaliScheduledSMS.SiteMainMenu" %>
 
-<!DOCTYPE html>
+<%--<%@ Register Src="~/userControls/sideMainUserControl.ascx" TagPrefix="uc1" TagName="sideMainUserControl" %>--%>
 
+<%--<uc1:sideMainUserControl runat="server" ID="sideMainUserControl" />--%>
+<!DOCTYPE html>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<link href="css/jgrowl.css" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="css/Registration.css" rel="stylesheet" />
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
-     <title>ScheduledSMS</title>
+    <title>ScheduledSMS</title>
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
-       <nav id="nav">
-                    <ul>
-                       <li> <a href="Registarion.aspx">Registarion</a></li>
-                        <li><a href="#">Login</a></li>
-                        <li><a href="AddContacts.aspx">AddContacts</a></li>
-                        <li><a href="#">Logout</a></li>
+    <div id="Register">
+
+        <div id="home" class="row justify-content-left align-items-left">
+            <div id="wrapper">
+
+                <div id="sidebar-wrapper">
+
+                    <ul class="sidebar-nav" style="margin-left: 0;">
+                        <input type="button" id="menu-toggle" style="margin-top: -30px; float: right; margin-right: -15px;" value=" ☰ ">
+                        <li class="sidebar-brand">
+
+
+                            <%--<i class="fa fa-bars " style="font-size: 20px !Important;" aria-hidden="true"></i> --%>
+                            <table>
+                                <tr>
+                                    <nav id="nav">
+                                        <ul>
+                                         <td><li><a href="#"><span class="fa fa-hourglass" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;Aboutus</a></li>
+                                                <li><a href="Registration.aspx"><span class="fa fa-user-circle" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;Registarion</a></li>                                                
+                                            <li><a href="Login%20.aspx"><span class="fa fa-user" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;ListContacts</a></li>
+                                            <li><a href="AddContacts.aspx"><span class="fa fa-address-book" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;AddContacts</a></li>
+                                            <li><a href="#"><span class="fa fa-history" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;History</a></li>
+                                            <li><a href="#"><span class="fa fa-sign-out" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;Logout</a></li></td>
+                                        </ul>
+                                    </nav>
+                                </tr>
+                            </table>
+
+                        </li>
                     </ul>
-                </nav>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
     <form id="form1" runat="server">
         <div>
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
-             
+
             </asp:ContentPlaceHolder>
         </div>
 
     </form>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/jgrowl.js"></script>
+    <link href="css/Home.css" rel="stylesheet" />
+    <script src="js/Home.js"></script>
 </body>
 </html>
