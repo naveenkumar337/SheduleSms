@@ -12,7 +12,6 @@ $(document).ready(function () {
         }
     }
     $('#submit').on("click",function () {
-        debugger
         let username= $('#txtname').val();
         let pass =$('#pswd').val();
         
@@ -22,7 +21,6 @@ $(document).ready(function () {
              async:true,
              type: "GET",
              success: function (data) {
-                 debugger;
                  if (data.ResponseCode == 1)
                  {
                      if (data.ResponseMessage == "User Not Exist")
@@ -33,7 +31,6 @@ $(document).ready(function () {
                          $.jGrowl("PassWord Not Correct");
                      }
                      else {
-                         debugger;
                          if ($("#remember-me").attr("checked", "checked")) {
                              var email = $('#txtname').val();
                              var password = $('#pswd').val();
@@ -47,10 +44,9 @@ $(document).ready(function () {
                              $.cookie('password', null, { expires: 14 });
                              $.cookie('remember', true, { expires: 14 });
                          }
-                     }
-                     $.jGrowl("Successfull !");
+                         $.jGrowl("Successfull !");
                          window.location = "Home.aspx?UserName" + data.ResponseMessage;
-                         
+                     }
                  }
                  if (data.ResponseCode == -1)
                  {

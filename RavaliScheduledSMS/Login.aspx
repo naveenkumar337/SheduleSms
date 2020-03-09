@@ -1,14 +1,15 @@
 ﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Login.aspx.cs" Inherits="RavaliScheduledSMS.Login"%>
-<!DOCTYPE html>
-<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<link href="css/jgrowl.css" rel="stylesheet" />
+    <!DOCTYPE html>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="css/jgrowl.css" rel="stylesheet" />
     <link href="css/Login.css" rel="stylesheet" />
 <html xmlns="http://www.w3.org/1999/xhtml">
     
 <head runat="server">
     
+    <script src="js/jquery.min.js"></script>
     <script src="js/jquery.cookie.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<%--    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>--%>
     <script type="text/javascript"  src="js/Login.js"></script>
     <title></title>
 </head>
