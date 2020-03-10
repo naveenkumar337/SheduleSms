@@ -122,6 +122,7 @@
     </Content>
     <Content Include="Registration.aspx" />
     <Content Include="js\Registration.js" />
+    <Content Include="Screenshot %282%29.png" />
     <Content Include="SiteMainMenu.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

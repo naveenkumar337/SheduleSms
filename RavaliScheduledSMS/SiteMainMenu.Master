@@ -16,54 +16,54 @@
     </asp:ContentPlaceHolder>
 </head>
 <body>
-    <div id="Register">
-
-        <div id="home" class="row justify-content-left align-items-left">
+    <div>
+    <input type="image" id="imagefile" src="Screenshot%20(2).png" style=" height:90px;width:100%;overflow:hidden;">
+        </div>
+    <div class="row" style="height:100%;">
+    <div class="col-1">
+        <div id="home" class="row justify-content-left align-items-left" style="overflow:hidden;">
             <div id="wrapper">
-
                 <div id="sidebar-wrapper">
 
-                    <ul class="sidebar-nav" style="margin-left: 0;">
-                        <input type="button" id="menu-toggle" style="margin-top: -30px; float: right; margin-right: -15px;" value=" ☰ ">
+                    <ul class="sidebar-nav" >
+                        <input type="button" id="menu-toggle" style="margin-top: -30px; float: right; margin-right: -15px; " value=" ☰ " />
                         <li class="sidebar-brand">
-
-
-                            <%--<i class="fa fa-bars " style="font-size: 20px !Important;" aria-hidden="true"></i> --%>
-                            <table>
-                                <tr>
                                     <nav id="nav">
                                         <ul>
-                                         <td><li><a href="#"><span class="fa fa-hourglass" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;Aboutus</a></li>
-                                                <li><a href="Registration.aspx"><span class="fa fa-user-circle" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;Registarion</a></li>                                                
-                                            <li><a href="Login%20.aspx"><span class="fa fa-user" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;ListContacts</a></li>
-                                            <li><a href="AddContacts.aspx"><span class="fa fa-address-book" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;AddContacts</a></li>
-                                            <li><a href="#"><span class="fa fa-history" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;History</a></li>
-                                            <li><a href="#"><span class="fa fa-sign-out" style="font-size: 18px; color: white"></span>&nbsp;&nbsp;Logout</a></li></td>
+                                            
+                                       <li><a href="#"><span class="fa fa-hourglass" style="font-size: 18px; color: white">&nbsp;&nbsp;HOME</span></a></li>
+                                       <li><a href="#"><span class="fa fa-hourglass" style="font-size: 18px; color: white">&nbsp;&nbsp;Aboutus</span></a></li>
+                                                <li><a href="Registration.aspx"><span class="fa fa-user-circle" style="font-size: 18px; color: white">&nbsp;&nbsp;Registarion</span></a></li>                                                
+                                            <li><a href="Login.aspx"><span class="fa fa-user" style="font-size: 18px; color: white">&nbsp;&nbsp;ListContacts</span></a></li>
+                                            <li><a href="AddContacts.aspx"><span class="fa fa-address-book" style="font-size: 18px; color: white">&nbsp;&nbsp;AddContacts</span></a></li>
+                                            <li><a href="#"><span class="fa fa-history" style="font-size: 18px; color: white">&nbsp;&nbsp;History</span></a></li>
+                                            <li><a href="#"><span class="fa fa-sign-out" style="font-size: 18px; color: white">&nbsp;&nbsp;Logout</span></a></li>
+
                                         </ul>
                                     </nav>
-                                </tr>
-                            </table>
-
                         </li>
                     </ul>
                 </div>
 
             </div>
-
+            
         </div>
-    </div>
-
+        </div>
+    <div id="ContentPart" class="col-11" style="background-color:#17a2b8;">
     <form id="form1" runat="server">
         <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
 
             </asp:ContentPlaceHolder>
         </div>
 
     </form>
+        </div>
+        </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="js/jgrowl.js"></script>
     <link href="css/Home.css" rel="stylesheet" />
     <script src="js/Home.js"></script>
+        
 </body>
 </html>
