@@ -45,7 +45,7 @@ $(document).ready(function () {
                              $.cookie('remember', true, { expires: 14 });
                          }
                          $.jGrowl("Successfull !");
-                         window.location = "Home.aspx?Username=" + data.ResponseMessage;
+                         window.location = "NormalSms.aspx?Username=" + data.ResponseMessage;
                      }
                  }
                  if (data.ResponseCode == -1)

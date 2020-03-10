@@ -31,7 +31,7 @@
                             </div>
                             <div class="form-group">
                                 <span>
-                                    <input id="remember-me" name="remember-me" type="checkbox" checked="checked"></span><label for="remember-me" class="text-info"><span>Remember me</span></label><br>
+                                    <input id="remember-me" name="remember-me" type="checkbox" checked="checked"></span><label for="remember-me" class="text-info"><span>Remember me</span></label><a href="#"><label style="float:right;" class="text-info"><span>ForgetPassword</span></label></a><br>
                                 <input type="submit" name="submit" class="btn btn-info float-left" value="Login" id="submit">
                                 <input type="submit" name="submit" class="btn btn-info float-right" value="SignUp" id="register">
                             </div>

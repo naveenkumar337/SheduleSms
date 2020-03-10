@@ -10,11 +10,16 @@
 </asp:Content>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-
+    <h4 style="color:white;align-content:center;text-align:center;">
+        Welcome  <%=Request.QueryString["Username"]%> 
+    </h4>
       <div class="row"> 
-                <div class="col-12" style="overflow:hidden;"><input type="button" class="col-6" id="normalSmsPage" value ="NormalSms" /><input type="button" class="col-6" id="SheduleSmsPage"  onclick="Home.apsx" value="SheduleSms" / >
+                <div class="col-12" style="overflow:hidden;">
+                    <a href="#"><input type="button" class="col-6" id="normalSmsPage" value ="NormalSms" /></a><a href="Home.aspx"><input type="button" class="col-6" id="SheduleSmsPage"  onclick="Home.apsx" value="SheduleSms" / ></a>
                 <%--<div class="col-6"></div>--%>
             </div>
+
+         <%--<div class="container">--%>
 
         <div id="form1">
             <div class="container" id="normalsmspage">
@@ -42,5 +47,6 @@
                 </div>
             </div>
         </div>
+        <%--</div>--%>
 <script src="js/SmsPages.js"></script>
 </asp:Content>

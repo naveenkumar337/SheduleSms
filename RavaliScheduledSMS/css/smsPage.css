@@ -1,7 +1,8 @@
 ﻿body {
        background-color:burlywood;
 }
-#normalsmspage {
+
+#shedulesmspage,#normalsmspage {
     left: 46%;
     bottom:38%;
     /*top: 50%;*/
@@ -11,7 +12,8 @@
 }
 #sendMessage {
 float:right;
-background-color:Highlight;
+background-color:black;
+color:white;
 height:40px;
 width:100px;
 border:13px;
@@ -27,4 +29,17 @@ border-radius:5px;
     float:right;
     color:cornflowerblue;
 }
+.container {
+    background-color:red;
+    margin-left:180px;
+    margin-right:10%;
+}
+/*#shedulesmspage {
+    left: 46%;
+    bottom:38%;
+    top: 50%;
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}*/
 
