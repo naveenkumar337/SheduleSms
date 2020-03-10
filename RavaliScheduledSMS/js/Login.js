@@ -1,7 +1,7 @@
 ﻿    
 $(document).ready(function () {
 
-    if ($("#remember-me").attr("checked", "checked")) {
+    if ($("#remember-me").prop("checked")) {
         var remember = $.cookie('remember');
         if (remember == 'true') {
             var email = $.cookie('email');
@@ -31,7 +31,7 @@ $(document).ready(function () {
                          $.jGrowl("PassWord Not Correct");
                      }
                      else {
-                         if ($("#remember-me").attr("checked", "checked")) {
+                         if ($("#remember-me").prop("checked")) {
                              var email = $('#txtname').val();
                              var password = $('#pswd').val();
 
@@ -40,12 +40,12 @@ $(document).ready(function () {
                              $.cookie('password', password, { expires: 14 });
                              $.cookie('remember', true, { expires: 14 });
                          } else {
-                             $.cookie('email', null, { expires: 14 });
-                             $.cookie('password', null, { expires: 14 });
+                             $.cookie('email', "", { expires: 14 });
+                             $.cookie('password', "", { expires: 14 });
                              $.cookie('remember', true, { expires: 14 });
                          }
                          $.jGrowl("Successfull !");
-                         window.location = "Home.aspx?UserName" + data.ResponseMessage;
+                         window.location = "Home.aspx?Username=" + data.ResponseMessage;
                      }
                  }
                  if (data.ResponseCode == -1)

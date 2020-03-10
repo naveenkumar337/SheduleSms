@@ -1,8 +1,18 @@
 ﻿body {
   margin: 0;
   padding: 0;
-  background-color: #17a2b8;
   height: 100vh;
+  overflow:hidden;
+}
+#ContentPart {
+      background-color: #17a2b8;
+}
+.col-2 {
+    background-color:brown;
+
+}
+.col-11 {
+     background-color: #17a2b8;
 }
 #Register .container #login-row #login-column #login-box {
  margin-top: 180px;
@@ -18,3 +28,13 @@
 #Register .container #login-row #login-column #login-box #login-form #register-link {
   margin-top: -85px;
 }
+#sidebar-wrapper {
+    width: 250px;   
+    margin-left:0px;    
+    left:0px;
+    position:fixed;
+    
+}
+/*#imagefile {
+    height:75px;width:100%;
+}*/

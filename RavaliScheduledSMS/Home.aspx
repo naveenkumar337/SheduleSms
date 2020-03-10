@@ -10,4 +10,7 @@
                 </nav>--%>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <h3 style="color:white;align-content:center;text-align:center;">
+        Welcome  <%=Request.QueryString["Username"]%> 
+    </h3>
 </asp:Content>
