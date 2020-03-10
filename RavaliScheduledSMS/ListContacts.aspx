@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListContacts.aspx.cs" Inherits="RavaliScheduledSMS.ListContacts" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="ListContacts.aspx.cs" Inherits="RavaliScheduledSMS.ListContacts"  %>
 
 <!DOCTYPE html>
 
