@@ -94,6 +94,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ContentPages\ForgotPassword.aspx" />
+    <Content Include="ContentPages\Logout.aspx" />
     <Content Include="css\Home.css" />
     <Content Include="css\jgrowl.css" />
     <Content Include="css\Login.css" />
@@ -115,6 +117,7 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="js\Login.js" />
+    <Content Include="js\Logout.js" />
     <Content Include="ListContacts.aspx" />
     <Content Include="js\SmsPages.js" />
     <Content Include="Login.aspx" />
@@ -150,6 +153,20 @@
     </Compile>
     <Compile Include="AddContacts.aspx.designer.cs">
       <DependentUpon>AddContacts.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPages\ForgotPassword.aspx.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentPages\ForgotPassword.aspx.designer.cs">
+      <DependentUpon>ForgotPassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ContentPages\Logout.aspx.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ContentPages\Logout.aspx.designer.cs">
+      <DependentUpon>Logout.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

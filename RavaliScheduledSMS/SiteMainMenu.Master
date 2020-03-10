@@ -4,6 +4,7 @@
 
 <%--<uc1:sideMainUserControl runat="server" ID="sideMainUserControl" />--%>
 <!DOCTYPE html>
+<script src="https://code.jquery.com/jquery-latest.min.js"></script>
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
 <link href="css/jgrowl.css" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -24,45 +25,37 @@
             <div id="wrapper">
                 <div id="sidebar-wrapper">
 
-                    <ul class="sidebar-nav" >
-                        <input type="button" id="menu-toggle" style="margin-top: -30px; float: right; margin-right: -15px; " value=" ☰ " />
-                        <li class="sidebar-brand">
-                                    <nav id="nav">
-                                        <ul>
-                                            
-                                       <li><a href="#"><span class="fa fa-hourglass" style="font-size: 18px; color: white">&nbsp;&nbsp;HOME</span></a></li>
-                                       <li><a href="#"><span class="fa fa-hourglass" style="font-size: 18px; color: white">&nbsp;&nbsp;Aboutus</span></a></li>
-                                                <li><a href="Registration.aspx"><span class="fa fa-user-circle" style="font-size: 18px; color: white">&nbsp;&nbsp;Registarion</span></a></li>                                                
-                                            <li><a href="Login.aspx"><span class="fa fa-user" style="font-size: 18px; color: white">&nbsp;&nbsp;ListContacts</span></a></li>
-                                            <li><a href="AddContacts.aspx"><span class="fa fa-address-book" style="font-size: 18px; color: white">&nbsp;&nbsp;AddContacts</span></a></li>
-                                            <li><a href="#"><span class="fa fa-history" style="font-size: 18px; color: white">&nbsp;&nbsp;History</span></a></li>
-                                            <li><a href="#"><span class="fa fa-sign-out" style="font-size: 18px; color: white">&nbsp;&nbsp;Logout</span></a></li>
-
-                                        </ul>
-                                    </nav>
-                        </li>
-                    </ul>
+                        <ul class="sidebar-nav">
+                            <input type="button" id="menu-toggle" style="margin-top: -30px; float: right; margin-right: -15px;" value=" ☰ " />
+                            <li class="sidebar-brand">
+                                <nav id="nav">
+                                    <ul>
+                                        <li><a href="#"><span class="fa fa-home" style="font-size: 20px; color: white">&nbsp;&nbsp;HOME</span></a></li>
+                                        <li><a href="#"><span class="fa fa-hourglass" style="font-size: 16px; color: white">&nbsp;&nbsp;Aboutus</span></a></li>
+                                        <li><a href="Registration.aspx"><span class="fa fa-user-circle" style="font-size: 18px; color: white">&nbsp;&nbsp;Registarion</span></a></li>
+                                        <li><a href="Login.aspx"><span class="fa fa-user" style="font-size: 18px; color: white">&nbsp;&nbsp;ListContacts</span></a></li>
+                                        <li><a href="AddContacts.aspx"><span class="fa fa-address-book" style="font-size: 18px; color: white">&nbsp;&nbsp;AddContacts</span></a></li>
+                                        <li><a href="#"><span class="fa fa-history" style="font-size: 18px; color: white">&nbsp;&nbsp;History</span></a></li>
+                                        <li><a href="ContentPages/Logout.aspx"><span class="fa fa-sign-out" style="font-size: 18px; color: white">&nbsp;&nbsp;Logout</span></a></li>
+                                    </ul>
+                                </nav>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
             </div>
-            
         </div>
+        <div id="ContentPart" class="col-11" style="background-color: #17a2b8;">
+            <form id="form1" runat="server">
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </form>
         </div>
-    <div id="ContentPart" class="col-11" style="background-color:#17a2b8;">
-    <form id="form1" runat="server">
-        <div>
-            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server" >
-
-            </asp:ContentPlaceHolder>
-        </div>
-
-    </form>
-        </div>
-        </div>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </div>
     <script src="js/jgrowl.js"></script>
     <link href="css/Home.css" rel="stylesheet" />
     <script src="js/Home.js"></script>
-        
 </body>
 </html>
