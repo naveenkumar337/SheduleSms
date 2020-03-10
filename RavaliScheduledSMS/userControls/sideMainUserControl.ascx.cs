@@ -28,7 +28,7 @@ namespace RavaliScheduledSMS.userControls
                  "< li >< a href = '#' title = '' >< span class='fa fa-user style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;ListContacts<strong></strong></a></li>" +
                  "<li><a href = 'AddContacts' title=''><span class='fa fa-address-book style='font - size: 18px; color: white'></span>&nbsp;&nbsp;AddContacts <strong></strong></a></li>" +
                        "<li><a href = '#' title=''><span class='fa fa-history' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;History<strong></strong></a></li>" +
-                 "<li><a href = '#' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
+                 "<li><a href = 'ContentPages/Logout.aspx' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
                  "</ul>";
                     break;
 
@@ -40,7 +40,7 @@ namespace RavaliScheduledSMS.userControls
                     "< li >< a href = '#' title = '' >< span class='fa fa-user style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;ListContacts<strong></strong></a></li>" +
                  "<li><a href = 'AddContacts' title=''><span class='fa fa-address-book style='font - size: 18px; color: white'></span>&nbsp;&nbsp;AddContacts <strong></strong></a></li>" +
                  "<li><a href = '#' title=''><span class='fa fa-history' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;History<strong></strong></a></li>" +
-                 "<li><a href = '#' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
+                 "<li><a href = 'ContentPages/Logout.aspx' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
                  "</ul>";
                     break;
 
@@ -52,7 +52,7 @@ namespace RavaliScheduledSMS.userControls
                     "< li >< a href = '#' title = '' >< span class='fa fa-user style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;ListContacts<strong></strong></a></li>" +
                  "<li><a href = 'AddContacts' title=''><span class='fa fa-address-book style='font - size: 18px; color: white'></span>&nbsp;&nbsp;AddContacts <strong></strong></a></li>" +
                  "<li><a href = '#' title=''><span class='fa fa-history' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;History<strong></strong></a></li>" +
-                 "<li><a href = '#' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
+                 "<li><a href = 'ContentPages/Logout.aspx' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
                  "</ul>";
                     break;
 
@@ -64,7 +64,7 @@ namespace RavaliScheduledSMS.userControls
                  "< li >< a href = '#' title = '' >< span class='fa fa-user style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;ListContacts<strong></strong></a></li>" +
                  "<li><a href = 'AddContacts' title=''><span class='fa fa-address-book style='font - size: 18px; color: white'></span>&nbsp;&nbsp;AddContacts <strong></strong></a></li>" +
                        "<li><a href = '#' title=''><span class='fa fa-history' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;History<strong></strong></a></li>" +
-                 "<li><a href = '#' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
+                 "<li><a href = 'ContentPages/Logout.aspx' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
                  "</ul>";
                     break;
 
@@ -76,7 +76,7 @@ namespace RavaliScheduledSMS.userControls
                 "< li >< a href = '#' title = '' >< span class='fa fa-user style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;ListContacts<strong></strong></a></li>" +
                 "<li><a href = 'AddContacts' title=''><span class='fa fa-address-book style='font - size: 18px; color: white'></span>&nbsp;&nbsp;AddContacts <strong></strong></a></li>" +
                       "<li><a href = '#' title=''><span class='fa fa-history' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;History<strong></strong></a></li>" +
-                "<li><a href = '#' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
+                "<li><a href = 'ContentPages/Logout.aspx' title=''><span class='fa fa-sign-out' style = 'font-size: 18px; color: white'></span>&nbsp;&nbsp;Logout<strong></strong></a></li>" +
                 "</ul>";
                     break;
 
