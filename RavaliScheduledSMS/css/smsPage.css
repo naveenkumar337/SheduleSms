@@ -1,0 +1,29 @@
+﻿body {
+       background-color:burlywood;
+}
+#normalsmspage {
+    left: 50%;bottom:50%;
+    /*top: 50%;*/
+    margin-left: -25%;
+    position: absolute;
+    margin-top: -25%;
+}
+#sendMessage {
+float:right;
+background-color:Highlight;
+height:40px;
+width:100px;
+border:13px;
+border-radius:5px;
+}
+#txtphonenumber {
+    border-radius:0px 5px 5px 0px;
+}
+.text-info {
+    text-decoration-color:orangered;
+}
+#messagelog {
+    float:right;
+    color:cornflowerblue;
+}
+

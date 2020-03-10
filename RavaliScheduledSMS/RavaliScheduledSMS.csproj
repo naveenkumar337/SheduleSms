@@ -98,15 +98,24 @@
     <Content Include="css\jgrowl.css" />
     <Content Include="css\Login.css" />
     <Content Include="css\Registration.css" />
+    <Content Include="css\smsPage.css" />
     <Content Include="js\jgrowl.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="js\jquery.cookie.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="js\jquery.mask.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="js\jquery.min.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="js\Login.js" />
     <Content Include="ListContacts.aspx" />
+    <Content Include="js\SmsPages.js" />
     <Content Include="Login.aspx" />
+    <Content Include="NormalSms.aspx" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -161,6 +170,13 @@
     </Compile>
     <Compile Include="Login .aspx.designer.cs">
       <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NormalSms.aspx.cs">
+      <DependentUpon>NormalSms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NormalSms.aspx.designer.cs">
+      <DependentUpon>NormalSms.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Registration.aspx.cs">
