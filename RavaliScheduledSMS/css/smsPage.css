@@ -2,9 +2,9 @@
        background-color:burlywood;
 }
 
-#shedulesmspage,#normalsmspage {
-    left: 46%;
-    bottom:38%;
+#shedulesmspage,#normalsmspage{
+  left: 45%;
+    bottom:48%;
     /*top: 50%;*/
     margin-left: -25%;
     position: absolute;
@@ -25,14 +25,14 @@ border-radius:5px;
 .text-info {
     text-decoration-color:orangered;
 }
-#messagelog {
+/*#messagelog {
     float:right;
     color:cornflowerblue;
-}
-.container {
+}*/
+.container .col-md-6{
     background-color:red;
-    margin-left:180px;
-    margin-right:10%;
+    /*margin-left:180px;
+    margin-right:10%;*/
 }
 /*#shedulesmspage {
     left: 46%;
@@ -41,5 +41,5 @@ border-radius:5px;
     margin-left: -25%;
     position: absolute;
     margin-top: -25%;
-}*/
+}
 

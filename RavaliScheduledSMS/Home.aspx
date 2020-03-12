@@ -8,7 +8,7 @@
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
      <div class="row"> 
-         <h4>Welcome <%=Request.QueryString["UserName"]%></h4>
+         <h4 style="align-content:center;color:white;">Welcome <%=Request.QueryString["UserName"]%></h4>
                 <div class="col-12" style="overflow:hidden;">
                     <a href="NormalSms.aspx"><input type="button" class="col-6" id="normalSmsPage" value ="NormalSms" /></a><a href="#"><input type="button" class="col-6" id="SheduleSmsPage"  onclick="Home.apsx" value="SheduleSms" / ></a>
                 <%--<div class="col-6"></div>--%>

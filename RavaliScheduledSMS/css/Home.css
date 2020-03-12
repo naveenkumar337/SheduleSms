@@ -21,10 +21,10 @@
  }
  #wrapper {
     padding-left: 0;
-    -webkit-transition: all 0.6s ease;
-    -moz-transition: all 0.6s ease;
-    -o-transition: all 0.6s ease;
-    transition: all 0.6s ease;
+    -webkit-transition: all 0.7s ease;
+    -moz-transition: all 0.7s ease;
+    -o-transition: all 0.7s ease;
+    transition: all 0.7s ease;
     
 }
 
@@ -116,10 +116,9 @@
 
 @media(min-width:768px) {
     #wrapper {
-        padding-left: 200px;
+        padding-left: 250px;
     }
-
-    #wrapper.toggled {
+#wrapper.toggled  {
         padding-left: 0;
     }
 
@@ -128,9 +127,7 @@
     }
 
     #wrapper.toggled #sidebar-wrapper {
-        width: 40px;
-        
-        
+        width: 40px;        
     }
 
 #wrapper.toggled span {
@@ -178,8 +175,6 @@
 
     #wrapper.toggled #sidebar-wrapper {
         width: 140px;
-        
-        
     }
     
     #wrapper.toggled span {
@@ -187,12 +182,10 @@
         position:relative;
         left:70px;
         bottom:13px;
-        
     }
 
 #wrapper span {
         visibility:hidden;
-        
     }
   #wrapper.toggled   i {
  float:right;

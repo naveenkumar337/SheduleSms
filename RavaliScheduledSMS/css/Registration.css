@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   height: 100vh;
+  background-color: #17a2b8;
+
   overflow:hidden;
 }
 #ContentPart {
@@ -33,7 +35,6 @@
     margin-left:0px;    
     left:0px;
     position:fixed;
-    
 }
 /*#imagefile {
     height:75px;width:100%;

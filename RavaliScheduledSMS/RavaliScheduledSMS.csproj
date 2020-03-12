@@ -104,6 +104,7 @@
     <Content Include="Images\Screenshot %286%29.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="js\Home.js" />
     <Content Include="js\jgrowl.js">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
